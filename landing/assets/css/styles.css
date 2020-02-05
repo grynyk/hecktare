@@ -435,7 +435,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-125px, -55px);
-  font-size: 24px;
+  font-size: 20px;
   color: #018e42;
   opacity: 0;
   animation: fadeIn 1s ease-in-out 3s;
@@ -882,8 +882,8 @@ p {
     max-width: 320px;
   }
   .video-title {
-    transform: translate(-85px, -40px);
-    font-size: 16px;
+    transform: translate(-85px, -35px);
+    font-size: 14px;
   }
   .video-btn li {
     margin-top: 180px;
