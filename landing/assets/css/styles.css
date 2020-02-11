@@ -536,7 +536,9 @@ p {
   margin-top: 16px;
   line-height: 25px;
 }
-
+.about-section .about-content .steps .section {
+  margin: 25px 0;
+}
 .about-section.about-section-white {
   background-color: #fff;
 }
@@ -1016,4 +1018,32 @@ p {
   .about-section .about-content .text {
     font-size: 18px;
   }
+}
+
+.slider-preview img{
+  width: 500px;
+}
+
+.slider-preview {
+  position: relative;
+  align-content: center;
+}
+
+.slider-thumb {
+  position: relative;
+  width: 250px;
+  margin: 10px;
+  padding: 2%;
+}
+
+.slider-thumb img {
+  width: 250px;
+}
+
+.slick-prev:before {
+  color: #222831;
+}
+
+.slick-next:before {
+  color: #222831;
 }
