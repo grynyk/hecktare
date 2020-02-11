@@ -169,7 +169,7 @@ p {
 
 /* HEADER - START */
 .navbar-container {
-  padding: 10px 25px 10px 150px;
+  padding: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -924,7 +924,23 @@ p {
   }
 }
 
+@media (min-width: 1140px) {
+  .navbar-container .container {
+    max-width: 100%;
+  }
+  .navbar-container .container .logo-main {
+    margin-left: 10%;
+  }
+  .navbar-container .container .logo-sticky {
+    margin-left: 10%;
+  }
+}
+
 @media (max-width: 991px) {
+  .navbar-container .navbar .navbar-btn {
+    padding-left: 0;
+    border-left: none;
+  }
   .subscribe-section .subscribe-section-content .action-title {
     text-align: center;
   }
@@ -956,6 +972,13 @@ p {
   }
   .about-section .about-content .about-title {
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .navbar-container .logo-sticky img {
+    max-width: 200px!important;
+    margin-left: 0%!important;
   }
 }
 
