@@ -30,7 +30,7 @@ $(function() {
       let sectionOffset = 0;
       if ($(this.hash).offset()) {
         if ($(this.hash).offset().top) {
-          sectionOffset = $(this.hash).offset().top - 73;
+          sectionOffset = $(this.hash).offset().top - 130;
         }
       }
       if (sectionOffset <= scrollbarLocation) {
@@ -68,7 +68,7 @@ $(function() {
         if (target.length) {
           $('html, body').animate(
             {
-              scrollTop: target.offset().top - 70
+              scrollTop: target.offset().top - 115
             },
             1000,
             'easeInOutExpo'
