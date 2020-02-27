@@ -88,6 +88,30 @@ var demoJson = {
             "pl": "Uzyskaj przyjazny dla użytkownika raport działki online już teraz!",
             "en": "Stop wasting time and money requesting and managing manual land analysis. Get user-friendly land report online now !",
         },
+        "landslides": {
+            "pl": "osuwiska",
+            "en": "Landslides detection",
+        },
+        "floodplains": {
+            "pl": "tereny zalewowe",
+            "en": "floodplains detection",
+        },
+        "arealighting": {
+            "pl": "Naświetlenie terenu",
+            "en": "area lighting",
+        },
+        "airpollution": {
+            "pl": "zanieczyszczenie powietrza",
+            "en": "air pollution",
+        },
+        "stinkyspots": {
+            "pl": "śmierdzące miejsca",
+            "en": "stinky spots",
+        },
+        "communicationres": {
+            "pl": "środki komunikacji",
+            "en": "communication resources",
+        }
     },
     "contact-container": {
         "title": {
