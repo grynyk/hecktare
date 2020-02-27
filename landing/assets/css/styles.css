@@ -621,6 +621,11 @@ p {
   background-color: #018e42;
   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.3);
 }
+
+.service-item:hover .service-item-header {
+  border-bottom: solid 1px #ffffff;
+}
+
 .service-item:hover .service-item-header .service-icon img {
   filter: invert(100%);
 }
