@@ -411,7 +411,7 @@ p {
 }
 
 .parallax-bg {
-  background-image: url('/assets/images/patchwork.jpg');
+  background-image: url(/assets/images/patchwork.jpg);
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -459,6 +459,7 @@ p {
 
 .background-video {
     position: absolute;
+    background-image: url(/assets/images/video_bg.jpg);
     top: -70px;
     right: 0;
     bottom: 0;
@@ -580,7 +581,7 @@ p {
 .about-section .about-content .steps .section img {
   width: 34px;
   margin: 0 15px 2px 0;
-  opacity: .5;
+  opacity: .9;
 }
 
 .about-section.about-section-white {
@@ -1072,6 +1073,10 @@ p {
   }
   
   .slider-preview-content-desc {
+    display: none;
+  }
+
+  #player {
     display: none;
   }
 }
