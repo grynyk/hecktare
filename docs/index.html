@@ -527,7 +527,8 @@
     <script type="text/javascript">
         var player;
         function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
+            if (window.innerWidth > 767) {
+                player = new YT.Player('player', {
                 videoId: 'dq9o4G1dV6w',
                 playerVars: {
                     mute: 1,
@@ -546,6 +547,7 @@
                     'onStateChange': onPlayerStateChange
                 }
             });
+            }
         }
         function onPlayerStateChange(el) {
             if (el.data === 1) {
