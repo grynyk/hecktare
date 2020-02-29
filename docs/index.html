@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
         integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
 </head>
 
 <body>
@@ -58,7 +59,7 @@
                                         <a class="page-scroll" href="#how-it-works" data-i18n="header.howItWorks"></a>
                                     </li>
                                     <li class="nav-item">
-                                            <a class="page-scroll" href="#about" data-i18n="header.about"></a>
+                                        <a class="page-scroll" href="#about" data-i18n="header.about"></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#services" data-i18n="header.services"></a>
@@ -75,8 +76,10 @@
                                 <a class="sidebar-btn" href="#sidebar-open"><i class="fa fa-bars"
                                         aria-hidden="true"></i></a>
                                 <ul class="buttons-container">
-                                    <li><a class="rounded-btn secondary-btn" href="#platform" data-i18n="header.platform"></a></li>
-                                    <li><a class="rounded-btn tertiary-btn" href="#platform" data-i18n="header.platform"></a></li>
+                                    <li><a class="rounded-btn secondary-btn" href="#platform"
+                                            data-i18n="header.platform"></a></li>
+                                    <li><a class="rounded-btn tertiary-btn" href="#platform"
+                                            data-i18n="header.platform"></a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -84,7 +87,6 @@
                 </div>
             </div>
         </div>
-        <!-- https://youtu.be/dq9o4G1dV6w -->
         <div id="home">
             <div class="video-bg">
                 <div id="video-overlay"></div>
@@ -101,7 +103,8 @@
                                     <h2 class="video-title">What a</h2>
                                     <img class="video-logo" src="assets/images/logos/logo-main-w.svg" alt="Logo">
                                     <ul class="video-btn buttons-container">
-                                        <li><a class="rounded-btn secondary-btn page-scroll" href="#platform" data-i18n="header.goToPlatform"></a>
+                                        <li><a class="rounded-btn secondary-btn page-scroll" href="#platform"
+                                                data-i18n="header.goToPlatform"></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -121,8 +124,8 @@
             <div class="sidebar-logo text-center">
                 <a href="#"><img src="assets/images/logos/logo-green.svg" width="70%" alt="Logo"></a>
                 <ul class="lang-picker dark">
-                        <li id="polish">Polski</li>
-                        <li id="english">English</li>
+                    <li id="polish">Polski</li>
+                    <li id="english">English</li>
                 </ul>
             </div>
             <div class="sidebar-menu">
@@ -146,100 +149,106 @@
     <div class="sidebar-overlay"></div>
 
     <section id="how-it-works" class="about-section">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="title-section text-center">
+                    <h3 class="title" data-i18n="services-container.title"></h3>
+                    <p class="text" data-i18n="services-container.description"></p>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s"
                         data-wow-offset="50">
-                        <h5 class="subtitle">LOREM IPSUM</h5>
-                        <h3 class="about-title">Dolor sit amet</h3>
                         <div class="steps">
                             <div class="section">
-                                <h4> <i class="fa fa-stop"></i> First step</h4>
-                                <p> Lorem Ipsum is simply dummy text of the printing and typing
-                                    indus try Lorem Ipsum has been the indus. </p>
+                                <h4>
+                                    <img src="assets/images/icons/one.svg">
+                                    Załóż darmowe konto
+                                </h4>
+                                <p> Przejdź do platformy, załóż darmowe konto i wypróbuj wszystkie funkcjonalności
+                                    lalal. </p>
                             </div>
 
                             <div class="section">
-                                <h4> <i class="fa fa-stop"></i> Second step</h4>
-                                <p>Simply dummy text of the printing and typing indus try Lorem
-                                    Ipsum has been the indus try's standard.</p>
+                                <h4>
+                                    <img src="assets/images/icons/two.svg">
+                                    Wybierz działkę
+                                </h4>
+                                <p> Wpisz adres i wskaż działkę lub narysuj teren na mapie który chcesz przeanalizować.
+                                </p>
                             </div>
                             <div class="section">
-                                <h4> <i class="fa fa-stop"></i> Third step</h4>
-                                <p>Ipsum is simply dummy text of the printing and typing indus
+                                <h4>
+                                    <img src="assets/images/icons/three.svg">
+                                    Wybierz potrzebne informacje
+                                </h4>
+                                <p>Pobierz gotowy raport w formie pdf typing indus
                                     try Lorem Ipsum has been the indus standard.</p>
                             </div>
-
+                            <div class="section">
+                                <h4>
+                                    <img src="assets/images/icons/four.svg">
+                                    Pobierz gotowy raport
+                                </h4>
+                                <p>Pobierz gotowy raport w formie pdf typing indus
+                                    try Lorem Ipsum has been the indus standard.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                        <div class="image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="50">
-                            <img src="assets/images/mock.png" alt="about">
-                        </div>
+                    <div class="image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"
+                        data-wow-offset="50">
+                        <img src="assets/images/mock.png" alt="about">
                     </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="about" class="slider-section slider-section-white">
-        <div class="container">
-            <div class="slider-container">
-                <div class="slider slider-for wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="50">
-                    <div class="slider-preview" align="center">
-                        <div class="slider-preview-content">
-                            <img src="assets/images/mock.png" alt="about">
-                            <div class="slider-preview-content-desc">
-                                <h2>Search</h2>
-                                <p>Search using the most detailed map based on zoning for desired land in our platform, to find your perfect ground.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-preview" align="center">
-                        <div class="slider-preview-content">
-                            <img src="assets/images/mock.png" alt="about">
-                            <div class="slider-preview-content-desc">
-                                <h2>Explore</h2>
-                                <p>Floods, soil types, Landslide detection, Air pollution, greenbelt & brownfield, power lines closeness. With Hecktare you can find suitable sites for your project and provide insight or evidence for your community-based development. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-preview" align="center">
-                        <div class="slider-preview-content">
-                            <img src="assets/images/mock.png" alt="about">
-                            <div class="slider-preview-content-desc">
-                                <h2>Decrease</h2>
-                                <p>Decrease risk of your investment using or to tool, to detect lacks of searchable ground.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-preview" align="center">
-                        <div class="slider-preview-content">
-                            <img src="assets/images/mock.png" alt="about">
-                            <div class="slider-preview-content-desc">
-                                <h2>Transparency</h2>
-                                <p>Find out everything you wanted about ground in user-friendly way.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider slider-nav wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="50">
-                    <div class="slider-thumb">
-                        <img src="assets/images/mock.png" alt="about">
-                    </div>
-                    <div class="slider-thumb">
-                        <img src="assets/images/mock.png" alt="about">
-                    </div>
-                    <div class="slider-thumb">
-                        <img src="assets/images/mock.png" alt="about">
-                    </div>
-                    <div class="slider-thumb">
-                        <img src="assets/images/mock.png" alt="about">
-                    </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="title-section text-center">
+                    <h3 class="title" data-i18n="services-container.title"></h3>
+                    <p class="text" data-i18n="services-container.description"></p>
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="slider-container">
+                <div class="slider slider-nav wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"
+                    data-wow-offset="50">
+                    <div class="slider-thumb">
+                        <a href="assets/images/mockups/app_1.png">
+                            <img src="assets/images/mockups/app_1.png" alt="about">
+                        </a>
+                    </div>
+                    <div class="slider-thumb">
+                        <a href="assets/images/mockups/app_2.png">
+                            <img src="assets/images/mockups/app_2.png" alt="about">
+                        </a>
+                    </div>
+                    <div class="slider-thumb">
+                        <a href="assets/images/mockups/app_3.png">
+                            <img src="assets/images/mockups/app_3.png" alt="about">
+                        </a>
+                    </div>
+                    <div class="slider-thumb">
+                        <a href="assets/images/mockups/app_3.png">
+                            <img src="assets/images/mockups/app_3.png" alt="about">
+                        </a>
+                    </div>
+                    <div class="slider-thumb">
+                        <a href="assets/images/mockups/app_2.png">
+                            <img src="assets/images/mockups/app_3.png" alt="about">
+                        </a>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <section id="sample" class="parallax-bg">
@@ -279,7 +288,8 @@
                             <h5 class="service-title" data-i18n="services-container.landslides"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +302,8 @@
                             <h5 class="service-title" data-i18n="services-container.floodplains"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -305,7 +316,8 @@
                             <h5 class="service-title" data-i18n="services-container.arealighting"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -318,7 +330,8 @@
                             <h5 class="service-title" data-i18n="services-container.airpollution"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -331,7 +344,8 @@
                             <h5 class="service-title" data-i18n="services-container.stinkyspots"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -344,7 +358,8 @@
                             <h5 class="service-title" data-i18n="services-container.communicationres"></h5>
                         </div>
                         <div class="service-item-content">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </div>
@@ -406,27 +421,31 @@
                             <div class="form-input">
                                 <label data-i18n="contact-container.name"></label>
                                 <div class="input-items default">
-                                    <input type="text" data-i18n-placeholder="contact-container.name-placeholder" name="name">
+                                    <input type="text" data-i18n-placeholder="contact-container.name-placeholder"
+                                        name="name">
                                     <i class="fa fa-user" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <div class="form-input">
                                 <label data-i18n="contact-container.email"></label>
                                 <div class="input-items default">
-                                    <input type="email" data-i18n-placeholder="contact-container.email-placeholder" name="email">
+                                    <input type="email" data-i18n-placeholder="contact-container.email-placeholder"
+                                        name="email">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <div class="form-input">
                                 <label data-i18n="contact-container.message"></label>
                                 <div class="input-items default">
-                                    <textarea data-i18n-placeholder="contact-container.message-placeholder" name="massage"></textarea>
+                                    <textarea data-i18n-placeholder="contact-container.message-placeholder"
+                                        name="massage"></textarea>
                                     <i class="fa fa-pencil" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <p class="form-message"></p>
                             <div class="form-input buttons-container">
-                                <button type="submit" class="rounded-btn primary-btn" data-i18n="buttons.submit"></button>
+                                <button type="submit" class="rounded-btn primary-btn"
+                                    data-i18n="buttons.submit"></button>
                             </div>
                         </form>
                     </div>
@@ -478,8 +497,8 @@
                     <div class="col-lg-5">
                         <div class="copyright text-center text-lg-left">
                             <p class="text"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 <a
-                                    style="color: #018e42" rel="nofollow" href="#">Hecktare</a> 
-                                    <span data-i18n="footer-container.copyright"></span></p>
+                                    style="color: #018e42" rel="nofollow" href="#">Hecktare</a>
+                                <span data-i18n="footer-container.copyright"></span></p>
                         </div>
                     </div>
                     <div class="col-lg-2">
@@ -487,8 +506,8 @@
                             <a href="index.html"><img src="assets/images/logos/logo-mini.svg" height="64px"
                                     alt="Logo"></a>
                             <ul class="lang-picker">
-                                    <li id="polish">Polski</li>
-                                    <li id="english">English</li>
+                                <li id="polish">Polski</li>
+                                <li id="english">English</li>
                             </ul>
                         </div>
                     </div>
@@ -529,11 +548,11 @@
             });
         }
         function onPlayerStateChange(el) {
-            if(el.data === 1) {
+            if (el.data === 1) {
                 jQuery('#video-overlay').hide();
             }
         }
-     </script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
         integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
@@ -544,6 +563,8 @@
         integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.3/lottie.min.js"
         integrity="sha256-lZIvAx83WLHALrd5UIfVRAkDgVmAIxUt8JqPhNZIs4Q=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/i18n.js"></script>
 </body>

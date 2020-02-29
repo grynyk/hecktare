@@ -79,20 +79,26 @@ $(function() {
     });
   });
 
-
-  $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
   $('.slider-nav').slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    asNavFor: '.slider-for',
     dots: true,
     focusOnSelect: true
+  }).magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    mainClass: 'mfp-with-zoom', 
+    gallery:{
+        enabled:true
+      },
+    zoom: {
+      enabled: true, 
+      duration: 300,
+      easing: 'ease-in-out',
+      opener: function(openerElement) {
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
   });
  
   $('a[data-slide]').click(function(e) {
