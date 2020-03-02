@@ -1087,6 +1087,10 @@ p {
   #video-overlay {
     background-color: rgba(34, 40, 49, 0.0);
   }
+
+  .login-container {
+    margin-left: -0!important;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -1208,6 +1212,7 @@ p {
   height: 400px;
   width: 400px;
   border-radius: 5px;
+  margin-left: 100px;
   padding: 25px;
 }
 
