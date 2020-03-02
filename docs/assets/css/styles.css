@@ -567,6 +567,10 @@ p {
   margin-top: 16px;
 }
 
+.about-section .about-content h5 {
+  font-weight: bold;
+}
+
 .about-section .about-content .text {
   color: #6c747a;
   font-size: 20px;
@@ -1080,7 +1084,7 @@ p {
     display: none;
   }
 
-  .video-overlay {
+  #video-overlay {
     background-color: rgba(34, 40, 49, 0.0);
   }
 }
@@ -1133,6 +1137,9 @@ p {
   }
   .about-section .about-content .about-title {
     text-align: center;
+  }
+  .about-section .content-image {
+    display: none;
   }
 }
 
