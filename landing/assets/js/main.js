@@ -15,7 +15,7 @@ $(function() {
   
   $(window).on('scroll', () => {
     const scroll = $(window).scrollTop();
-    if (scroll < 10) {
+    if (scroll < 50) {
       $('.navbar-container').removeClass('sticky');
     } else {
       $('.navbar-container').addClass('sticky');

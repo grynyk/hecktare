@@ -85,7 +85,7 @@ var demoJson = {
             "en": "Our services",
         },
         "description": {
-            "pl": "Uzyskaj przyjazny dla użytkownika raport działki online już teraz!",
+            "pl": "Uzyskaj przyjazny dla użytkownika raport działki online już teraz !",
             "en": "Stop wasting time and money requesting and managing manual land analysis. Get user-friendly land report online now !",
         },
         "landslides": {
@@ -207,7 +207,7 @@ var demoJson = {
             "en": "Select a plot",
         },
         "second-desc": {
-            "pl": "Wpisz adres i wskaż działkę lub narysuj teren na mapie który chcesz przeanalizować.",
+            "pl": "Wpisz adres i wskaż działkę lub narysuj na mapie teren, który chcesz przeanalizować.",
             "en": "Enter the address and indicate the plot or draw the area on the map you want to analyze.",
         },
         "third": {
@@ -223,7 +223,7 @@ var demoJson = {
             "en": "Download the report",
         },
         "fourth-desc": {
-            "pl": "Pobierz raport przygotowany w wygodny i przejrzysty sposób w formacie pdf. Który umieści w sobie zdetalizowane dane o każdym wybranym obszarze, który cię interesował.",
+            "pl": "Pobierz raport przygotowany w wygodny i przejrzysty sposób w formacie pdf. Dokument zawiera  szczegółowe dane o każdym wybranym obszarze, który chciałeś przeanalizować.",
             "en": "Download the report prepared in a convenient and transparent way in pdf format. Which will incorporate the determined data about each selected area that you were interested in.",
         },
     },
