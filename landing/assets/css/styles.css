@@ -462,7 +462,7 @@ p {
 
 .background-video {
     position: absolute;
-    background-image: url(/assets/images/parallax_bg.jpg);
+    background-image: url(../images/parallax_bg.jpg);
     top: -70px;
     right: 0;
     bottom: 0;
@@ -690,33 +690,9 @@ p {
   perspective: 1000px;
 }
 
-.service-item-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.service-item-front, .service-item-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.service-item-back {
-  transform: rotateY(180deg);
-}
-
 .service-item .service-item-header {
   padding-bottom: 10px;
   border-bottom: solid 1px #6c747a;
-}
-
-.service-item:hover .service-item-inner {
-  transform: rotateY(180deg);
 }
 
 .service-item .service-item-header .service-icon img {
@@ -1125,6 +1101,16 @@ p {
 
   .slider-section .slider-container {
     padding: 0 25px
+  }
+
+  .sidebar-container {
+    padding-top: 50px;
+  }
+  .sidebar-container .sidebar-content .sidebar-menu {
+    margin-top: 25px;
+  }
+  .sidebar-container .sidebar-content .sidebar-social {
+    display: none;
   }
 }
 
