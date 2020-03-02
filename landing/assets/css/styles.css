@@ -1201,3 +1201,51 @@ p {
 @media (max-aspect-ratio: 16/9) {
   .foreground-video { width: 300%; left: -100%; }
 }
+
+
+.login-container {
+  background: #fff;
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.login-container-title {
+  color: #6c747a;
+}
+
+.login-container-form {
+  margin-top: 50px;
+}
+
+.login-buttons.buttons-container {
+  margin-top: 25px;
+}
+
+.login-buttons.buttons-container .rounded-btn {
+  min-width: 100%;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.login-buttons.buttons-container .rounded-btn.primary-btn {
+  color: #fff;
+}
+
+.login-buttons.buttons-container .rounded-btn.primary-btn:hover {
+  color: #018E42;
+}
+
+
+.login-buttons.buttons-container .rounded-btn.secondary-btn {
+  pointer-events: none;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: grey;
+}
+
+.login-container .return-link {
+  color: #6c747a;
+  text-decoration: underline;
+}
