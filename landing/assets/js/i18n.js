@@ -29,8 +29,8 @@ var demoJson = {
             "en": "Services",
         },
         "about": {
-            "pl": "O nas",
-            "en": "About us",
+            "pl": "O platformie",
+            "en": "About platform",
         },
         "contact": {
             "pl": "kontakt",
@@ -92,25 +92,49 @@ var demoJson = {
             "pl": "osuwiska",
             "en": "Landslides detection",
         },
+        "landslides-desc": {
+            "pl": "Sprawdź czy twoja działka znajduje się w strefie zagrożenia nagłych przemieszczeń mas ziemnych. Uniknij popękanych ścian w swoim budynku.",
+            "en": "Detect whether your plot is in the danger zone of sudden ground movements. Avoid wall cracking in your building.",
+        },
         "floodplains": {
             "pl": "tereny zalewowe",
             "en": "floodplains detection",
+        },
+        "floodplains-desc": {
+            "pl": "Wiadomo, że powódź to żadna przyjemność. Zminimalizuj ryzyko kupna działki na terenie zalewowym.",
+            "en": "Flooding is not a pleasure. Minimize risk of buying land within flood area.",
         },
         "arealighting": {
             "pl": "Naświetlenie terenu",
             "en": "area lighting",
         },
+        "arealighting-desc": {
+            "pl": "Ogniwa fotowoltaiczne oraz kolektory solarne wymagają instalacji na dobrze naświetlonym terenie. Dzięki naszej usłudze ciesz się udaną inwestycją w zasilanie energią słoneczną.",
+            "en": "Photovoltaic cells and solar collectors requires to be installed in well irradiated place. Smart investment is possible with our service.",
+        },
         "airpollution": {
             "pl": "zanieczyszczenie powietrza",
             "en": "air pollution",
+        },
+        "airpollution-desc": {
+            "pl": "Otrzymaj dane na temat zanieczyszczenia powietrza w konkretnym miejscu w skali roku. Informacje pochodzą z kilku lat wstecz.",
+            "en": "Receive data about yearly air pollution in selected place. Our information consists of data from several previous years.",
         },
         "stinkyspots": {
             "pl": "śmierdzące miejsca",
             "en": "stinky spots",
         },
+        "stinkyspots-desc": {
+            "pl": "Codzienne życie w okolicy oczyszczalni ścieków, fermy drobiu czy innych zakładów przemysłowych może być uciążliwe. Uniknij przykrego zapachu w pobliżu swojego domu.",
+            "en": "Living next to wastewater treatment station, poultry farm and many other manufacturing plants can be arduous. Avoid horrible smell from those places.",
+        },
         "communicationres": {
             "pl": "środki komunikacji",
             "en": "communication resources",
+        },
+        "communicationres-desc": {
+            "pl": "Prawie 14 000 000 ludzi w Polsce jest wykluczonych komunikacyjnie. Do więcej niż 1/5 sołectw nie dociera żaden transport publiczny. Nasz produkt pozwoli uniknąć takiego problemu, dzięki analizie bazy przystanków komunikacji publicznej, ocenimy jak dobrze skomunikowany jest wybrany przez ciebie teren.",
+            "en": "No public transport reaches more than one-fifth of the villages. Our product will avoid communication exclusion, thanks to the analysis of the public transport stops database.",
         }
     },
     "contact-container": {
@@ -121,6 +145,14 @@ var demoJson = {
         "description": {
             "pl": "Skontaktuj się z nami za pomocą poniższego formularza.",
             "en": "Get in touch with us using contact form below.",
+        },
+        "letstalk": {
+            "pl": "Porozmawiajmy o projekcie",
+            "en": "Let's talk about the project.",
+        },
+        "letstalk-desc": {
+            "pl": "Będzie nam miło, jeśli skontaktujesz się z nami w sprawie pytań, sugestii lub współpracy.",
+            "en": "We would be pleased if you contact us with questions, suggestions or cooperation.",
         },
         "name": {
             "pl": "Imie",
@@ -145,6 +177,54 @@ var demoJson = {
         "name-placeholder": {
             "pl": "Jan Kowalski",
             "en": "John Smith",
+        },
+    },
+    "slider-container": {
+        "title": {
+            "pl": "Jak to wygląda ?",
+            "en": "How it looks like ?",
+        }
+    },
+    "howitworks-container": {
+        "title": {
+            "pl": "Jak to działa ?",
+            "en": "How it works ?",
+        },
+        "description": {
+            "pl": "Za pomocą poniższych 4 kroków możesz łatwo przeanalizować pożądany teren.",
+            "en": "An overview of how you can easily analyze desired plot with simple 4 steps.",
+        },
+        "first": {
+            "pl": "Załóż darmowe konto",
+            "en": "Create a free account",
+        },
+        "first-desc": {
+            "pl": "Przejdź do platformy, załóż darmowe konto i wypróbuj wszystkie funkcjonalności naszej aplikacji.",
+            "en": "Go to the platform, create a free account and try all the functionalities of our application.",
+        },
+        "second": {
+            "pl": "Wybierz działkę",
+            "en": "Select a plot",
+        },
+        "second-desc": {
+            "pl": "Wpisz adres i wskaż działkę lub narysuj teren na mapie który chcesz przeanalizować.",
+            "en": "Enter the address and indicate the plot or draw the area on the map you want to analyze.",
+        },
+        "third": {
+            "pl": "Wybierz potrzebne informacje",
+            "en": "Select the information you need",
+        },
+        "third-desc": {
+            "pl": "Zaznacz informację, które chciałbyś uzyskać w raporcie o docelowej działce.",
+            "en": "Select the information you would like to get in the report about the target plot.",
+        },
+        "fourth": {
+            "pl": "Pobierz gotowy raport",
+            "en": "Download the report",
+        },
+        "fourth-desc": {
+            "pl": "Pobierz raport przygotowany w wygodny i przejrzysty sposób w formacie pdf. Który umieści w sobie zdetalizowane dane o każdym wybranym obszarze, który cię interesował.",
+            "en": "Download the report prepared in a convenient and transparent way in pdf format. Which will incorporate the determined data about each selected area that you were interested in.",
         },
     },
     "buttons": {
