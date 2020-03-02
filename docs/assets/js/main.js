@@ -66,6 +66,7 @@ $(function() {
           this.pathname.replace(/^\//, '') &&
         location.hostname == this.hostname
       ) {
+        window.removeEventListener('scroll', noScroll);
         $('.sidebar-container, .sidebar-overlay').removeClass('open');
         let target = $(this.hash);
         target = target.length
