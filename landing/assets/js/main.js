@@ -73,13 +73,24 @@ $(function() {
           ? target
           : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
-          $('html, body').animate(
-            {
-              scrollTop: target.offset().top - 115
-            },
-            1000,
-            'easeInOutExpo'
-          );
+          if (window.innerWidth > 600) {
+            $('html, body').animate(
+              {
+                scrollTop: target.offset().top - 115
+              },
+              1000,
+              'easeInOutExpo'
+            );
+          } else {
+            $('html, body').animate(
+              {
+                scrollTop: target.offset().top - 80
+              },
+              1000,
+              'easeInOutExpo'
+            );
+          }
+
           return false;
         }
       }
