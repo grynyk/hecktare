@@ -45,12 +45,18 @@ $(function() {
     });
   });
 
+  function noScroll() {
+    window.scrollTo(0, 0);
+  }
+
   $('[href="#sidebar-open"], .sidebar-overlay').on('click', () => {
     $('.sidebar-container, .sidebar-overlay').addClass('open');
+    window.addEventListener('scroll', noScroll);
   });
 
   $('[href="#sidebar-close"], .sidebar-overlay').on('click', () => {
     $('.sidebar-container, .sidebar-overlay').removeClass('open');
+    window.removeEventListener('scroll', noScroll);
   });
 
   $(() => {
