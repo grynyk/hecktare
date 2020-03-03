@@ -98,7 +98,7 @@ $(function() {
   });
 
   $('.slider-nav').slick({
-    slidesToShow: 4,
+    slidesToShow: window.innerWidth > 767 ? 4 : 2,
     slidesToScroll: 1,
     dots: true,
     focusOnSelect: true
