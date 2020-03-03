@@ -7,11 +7,36 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Pobierz raport o działce, ze skuteczną analizą, przygotowany w wygodny i przejrzysty sposób w formacie pdf. Dokument zawiera  szczegółowe dane o każdym z następujących obszarów: osuwiska, tereny zalewowe, zanieczyszczenie powietrza, naświetlenie terenu, analizę środków komunikacji, śmierdzących miejsc."/>
+    
+    <meta property="og:url" content="http://www.hecktare.com" />
+    <meta property="og:type" content="product" />
+    <meta name="og:title" property="og:title" content="Hecktare - Odkryj szybko i szczegółowo wartości gruntów !">
+    <meta name="og:description" property="og:title" content="Pobierz raport o działce, ze skuteczną analizą, przygotowany w wygodny i przejrzysty sposób w formacie pdf.">
+    <meta property="og:image" content="http://hecktare.com/assets/images/mockups/app_1.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Hecktare - Odkryj szybko i szczegółowo wartości gruntów !" />
+    <meta name="twitter:description" content="Pobierz raport o działce, ze skuteczną analizą, przygotowany w wygodny i przejrzysty sposób w formacie pdf." />
+    <meta property="twitter:url" content="http://www.hecktare.com" />
+    <meta property="twitter:image" content="http://hecktare.com/assets/images/mockups/app_1.png" />
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
 
-    <title>Hecktare - Discover Land Values in detail & fast ! </title>
-
+    <title data-i18n="header.title">Hecktare - Odkryj szybko i szczegółowo wartości gruntów !</title>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "http://www.hecktare.com",
+          "name": "Hecktare - szybka analiza gruntu w przyjaznym formacie",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+48 570 619 363",
+            "contactType": "Customer service"
+          }
+        }
+        </script>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"
         integrity="sha256-Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=" crossorigin="anonymous" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -44,31 +69,28 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="logo-main" href="#">
+                            <a class="logo-main" href="#" itemprop="logo">
                                 <img src="assets/images/logos/logo-mini.png" alt="Logo">
                             </a>
-                            <a class="logo-sticky" href="#">
+                            <a class="logo-sticky" href="#" itemprop="logo">
                                 <img src="assets/images/logos/logo-black.png" alt="Logo">
                             </a>
                             <div class="collapse navbar-collapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="#">HOME</a>
+                                        <a class="page-scroll" href="#" itemprop="url">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#how-it-works" data-i18n="header.howItWorks"></a>
+                                        <a class="page-scroll" href="#how-it-works" itemprop="url" data-i18n="header.howItWorks"></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#about" data-i18n="header.about"></a>
+                                        <a class="page-scroll" href="#about" itemprop="url" data-i18n="header.about"></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#services" data-i18n="header.services"></a>
+                                        <a class="page-scroll" href="#services" itemprop="url" data-i18n="header.services"></a>
                                     </li>
-                                    <!-- <li class="nav-item">
-                                                <a class="page-scroll" href="#pricing">PRICING</a>
-                                            </li> -->
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#contact" data-i18n="header.contact"></a>
+                                        <a class="page-scroll" href="#contact" itemprop="url" data-i18n="header.contact"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -77,9 +99,9 @@
                                         aria-hidden="true"></i></a>
                                 <ul class="buttons-container">
                                     <li><a class="rounded-btn secondary-btn" href="/platform.html"
-                                            data-i18n="header.platform"></a></li>
+                                        itemprop="url" data-i18n="header.platform"></a></li>
                                     <li><a class="rounded-btn tertiary-btn" href="/platform.html"
-                                            data-i18n="header.platform"></a></li>
+                                        itemprop="url" data-i18n="header.platform"></a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -104,7 +126,7 @@
                                     <img class="video-logo" src="assets/images/logos/logo-main-w.svg" alt="Logo">
                                     <ul class="video-btn buttons-container">
                                         <li><a class="rounded-btn secondary-btn page-scroll" href="/platform.html"
-                                                data-i18n="header.goToPlatform"></a>
+                                            itemprop="url" data-i18n="header.goToPlatform"></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -118,7 +140,7 @@
 
     <div class="sidebar-container">
         <div class="sidebar-close">
-            <a class="close" href="#sidebar-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <a class="close" href="#sidebar-close" itemprop="url"><i class="fa fa-times" aria-hidden="true"></i></a>
         </div>
         <div class="sidebar-content">
             <div class="sidebar-logo text-center">
@@ -130,12 +152,12 @@
             </div>
             <div class="sidebar-menu">
                 <ul>
-                    <li><a class="page-scroll" href="#">HOME</a></li>
-                    <li><a href="platform.html" data-i18n="header.platform"></a></li>
-                    <li><a class="page-scroll" href="#how-it-works" data-i18n="header.howItWorks"></a></li>
-                    <li><a class="page-scroll" href="#about" data-i18n="header.about"></a></li>
-                    <li><a class="page-scroll" href="#services" data-i18n="header.services"></a></li>
-                    <li><a class="page-scroll" href="#contact" data-i18n="header.contact"></a></li>
+                    <li><a class="page-scroll" itemprop="url" href="#">HOME</a></li>
+                    <li><a href="platform.html" itemprop="url"  data-i18n="header.platform"></a></li>
+                    <li><a class="page-scroll" itemprop="url" href="#how-it-works" data-i18n="header.howItWorks"></a></li>
+                    <li><a class="page-scroll" itemprop="url" href="#about" data-i18n="header.about"></a></li>
+                    <li><a class="page-scroll" itemprop="url" href="#services" data-i18n="header.services"></a></li>
+                    <li><a class="page-scroll" itemprop="url" href="#contact" data-i18n="header.contact"></a></li>
                 </ul>
             </div>
             <div class="sidebar-social d-flex align-items-center justify-content-center">
@@ -154,7 +176,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title-section text-center">
-                        <h3 class="title" data-i18n="howitworks-container.title"></h3>
+                        <h1 class="title" data-i18n="howitworks-container.title"></h1>
                         <p class="text" data-i18n="howitworks-container.description"></p>
                     </div>
                 </div>
@@ -200,7 +222,7 @@
                     <div class="content-image col-lg-6">
                         <div class="image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"
                             data-wow-offset="50">
-                            <img src="assets/images/mockups/app_0_mock.png" alt="about">
+                            <img src="assets/images/mockups/app_0_mock.png" alt="login page">
                         </div>
                     </div>
                 </div>
@@ -211,7 +233,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title-section text-center">
-                        <h3 class="title" data-i18n="slider-container.title"></h3>
+                        <h1 class="title" data-i18n="slider-container.title"></h1>
                     </div>
                 </div>
             </div>
@@ -221,27 +243,27 @@
                         data-wow-offset="50">
                         <div class="slider-thumb">
                             <a href="assets/images/mockups/app_0.png">
-                                <img src="assets/images/mockups/thumb_0.jpg" alt="about">
+                                <img src="assets/images/mockups/thumb_0.jpg" alt="slider thumb">
                             </a>
                         </div>
                         <div class="slider-thumb">
                             <a href="assets/images/mockups/app_1.png">
-                                <img src="assets/images/mockups/thumb_1.jpg" alt="about">
+                                <img src="assets/images/mockups/thumb_1.jpg" alt="slider thumb">
                             </a>
                         </div>
                         <div class="slider-thumb">
                             <a href="assets/images/mockups/app_2.png">
-                                <img src="assets/images/mockups/thumb_2.jpg" alt="about">
+                                <img src="assets/images/mockups/thumb_2.jpg" alt="slider thumb">
                             </a>
                         </div>
                         <div class="slider-thumb">
                             <a href="assets/images/mockups/app_3.png">
-                                <img src="assets/images/mockups/thumb_3.jpg" alt="about">
+                                <img src="assets/images/mockups/thumb_3.jpg" alt="slider thumb">
                             </a>
                         </div>
                         <div class="slider-thumb">
                             <a href="assets/images/mockups/app_2.png">
-                                <img src="assets/images/mockups/thumb_3.jpg" alt="about">
+                                <img src="assets/images/mockups/thumb_3.jpg" alt="slider thumb">
                             </a>
                         </div>
                     </div>
@@ -252,7 +274,7 @@
             <div class="sample-report-section parallax-overlay">
                 <div class="container sample-report-section-container">
                     <div class="sample-report-section-content">
-                        <h3 class="action-title" data-i18n="sample-container.title"></h3>
+                        <h3 class="action-title" itemprop="offers" itemscope itemtype="http://schema.org/Product" data-i18n="sample-container.title"></h3>
                         <p class="text" data-i18n="sample-container.description"></p>
                         <div class="action-btn buttons-container">
                             <button class="rounded-btn primary-btn iconed-btn">
@@ -270,7 +292,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="title-section text-center">
-                            <h3 class="title" data-i18n="services-container.title"></h3>
+                            <h1 class="title" data-i18n="services-container.title"></h1>
                             <p class="text" data-i18n="services-container.description"></p>
                         </div>
                     </div>
@@ -280,9 +302,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/ground.svg">
+                                    <img src="assets/images/icons/ground.svg" alt="ground icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.landslides"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.landslides"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.landslides-desc"></p>
@@ -293,9 +315,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/flood.svg">
+                                    <img src="assets/images/icons/flood.svg" alt="flood icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.floodplains"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.floodplains"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.floodplains-desc"></p>
@@ -306,9 +328,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/sun.svg">
+                                    <img src="assets/images/icons/sun.svg" alt="sun icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.arealighting"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.arealighting"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.arealighting-desc"></p>
@@ -319,9 +341,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/mask.svg">
+                                    <img src="assets/images/icons/mask.svg" alt="air pollution icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.airpollution"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.airpollution"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.airpollution-desc"></p>
@@ -332,9 +354,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/sewage.svg">
+                                    <img src="assets/images/icons/sewage.svg" alt="sewage icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.stinkyspots"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.stinkyspots"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.stinkyspots-desc"></p>
@@ -345,9 +367,9 @@
                         <div class="service-item wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="service-item-header row">
                                 <div class="service-icon">
-                                    <img src="assets/images/icons/pay.svg">
+                                    <img src="assets/images/icons/pay.svg" alt="pay icon">
                                 </div>
-                                <h5 class="service-title" data-i18n="services-container.communicationres"></h5>
+                                <h5 class="service-title" itemprop="typeOfGood" itemscope itemtype="http://schema.org/Service" data-i18n="services-container.communicationres"></h5>
                             </div>
                             <div class="service-item-content">
                                 <p class="text" data-i18n="services-container.communicationres-desc"></p> </p>
@@ -386,7 +408,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="title-section text-center">
-                            <h3 class="title" data-i18n="contact-container.title"></h3>
+                            <h1 class="title" data-i18n="contact-container.title"></h1>
                             <p class="text" data-i18n="contact-container.description"></p>
                         </div>
                     </div>
@@ -397,10 +419,10 @@
                             <h4 class="contact-title" data-i18n="contact-container.letstalk"></h4>
                             <p class="text" data-i18n="contact-container.letstalk-desc"></p>
                             <ul class="contact-info">
-                                <li><i class="fa fa-map-marker" aria-hidden="true"></i> Kraków, Poland
+                                <li itemprop="address" itemscope itemtype="http://schema.org/Organization"><i class="fa fa-map-marker" aria-hidden="true"></i> Kraków, Poland
                                 </li>
-                                <li><i class="fa fa-mobile" aria-hidden="true"></i></i> +48 789 321 654</li>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@hecktare.com</li>
+                                <li itemprop="telephone" itemscope itemtype="http://schema.org/Organization"><i class="fa fa-mobile" aria-hidden="true"></i></i> +48 570 619 363</li>
+                                <li itemprop="email" itemscope itemtype="http://schema.org/Organization"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@hecktare.com</li>
                             </ul>
                         </div>
                     </div>
@@ -449,29 +471,29 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-sm-3 col-3">
                         <div class="text-center">
-                            <a href="https://www.interreg-baltic.eu">
-                                <img src="assets/images/partners/bsrp.svg" height="60px" alt="Logo">
+                            <a href="https://www.interreg-baltic.eu" itemprop="url">
+                                <img src="assets/images/partners/bsrp.svg" alt="interreg logo" height="60px" alt="Logo">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-3 col-3">
                         <div class="text-center">
-                            <a href="https://www.balticsatapps.pl/">
-                                <img src="assets/images/partners/bsa.svg" height="75px" alt="Logo">
+                            <a href="https://www.balticsatapps.pl/" itemprop="url">
+                                <img src="assets/images/partners/bsa.svg" alt="balticsatapps logo" height="75px" alt="Logo">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-3 col-3">
                         <div class="text-center">
-                            <a href="http://www.kpt.krakow.pl/">
-                                <img src="assets/images/partners/kpt.svg" height="60px" alt="Logo">
+                            <a href="http://www.kpt.krakow.pl/" itemprop="url">
+                                <img src="assets/images/partners/kpt.svg" alt="kpt logo" height="60px" alt="Logo">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-3 col-3">
                         <div class="text-center">
                             <a href="https://europa.eu/european-union/index_pl">
-                                <img src="assets/images/partners/eu.png" height="60px" alt="Logo">
+                                <img src="assets/images/partners/eu.png" alt="eu logo" height="60px" alt="Logo">
                             </a>
     
                         </div>
@@ -493,7 +515,7 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="footer-logo text-center">
-                                <a href="index.html"><img src="assets/images/logos/logo-mini.svg" height="64px"
+                                <a href="index.html"><img src="assets/images/logos/logo-mini.svg" alt="mini logo" height="64px"
                                         alt="Logo"></a>
                                 <ul class="lang-picker">
                                     <li id="polish">Polski</li>
@@ -503,10 +525,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="social text-center text-lg-right">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a itemprop="url" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a itemprop="url" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a itemprop="url" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a itemprop="url" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>

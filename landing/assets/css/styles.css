@@ -379,6 +379,7 @@ p {
   color: #018e42;
 }
 .sidebar-container .sidebar-content .sidebar-social {
+  display: block;
   position: fixed;
   bottom: 50px;
   width: 100%;
@@ -951,6 +952,11 @@ p {
   background: rgba(1, 142, 66, 0.6);
 }
 
+.form-input.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* CONTACT - END */
 
 /* FOOTER - END */
@@ -1107,7 +1113,10 @@ p {
     margin-top: 25px;
   }
   .sidebar-container .sidebar-content .sidebar-social {
-    display: none;
+    display: none!important;
+  }
+  .about-section .about-content h5 {
+    font-size: 18px;
   }
 }
 

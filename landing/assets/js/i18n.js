@@ -20,6 +20,10 @@
 
 var demoJson = {
     "header": {
+        "title": {
+            "pl": "Hecktare - Odkryj szybko i szczegółowo wartości gruntów !",
+            "en": "Hecktare - Discover Land Values in detail & fast !"
+        },
         "howItWorks": {
             "pl": "Jak to działa",
             "en": "How it works",
@@ -85,8 +89,8 @@ var demoJson = {
             "en": "Our services",
         },
         "description": {
-            "pl": "Uzyskaj przyjazny dla użytkownika raport działki online już teraz !",
-            "en": "Stop wasting time and money requesting and managing manual land analysis. Get user-friendly land report online now !",
+            "pl": "Lista usług ciągle się powiększa, staramy się dostarczać jak najwięcej informacji o wybranym terenie.",
+            "en": "At the outset we offer services listed below, but the list of services is constantly growing, we try to provide as much information as possible about the selected area",
         },
         "landslides": {
             "pl": "osuwiska",
